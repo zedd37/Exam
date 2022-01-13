@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title></title>
+</head>
+<body>
+  <div id="container">
+    <div class="content">
+      <div class="container-fluid noPadding">
+        <div class="one noPadding header" style="height: 124.8px;">
+          <div class="boxhead headingTitle two">
+            <h1>Complete the words.</h1>
+          </div>
+          <div class="box1">
+            <div class="resourseBtn" name="resourses" onclick="ree()">
+              <img src="Images/resourse.png" class="img-responsive">
+            </div>
+          </div>
+          <div class="box1 pull-right helpBtn" name="help" onclick="fee()">
+            <img src="Images/help.png" class="img-responsive">
+          </div>
+        </div>
+        <section class"one pageContainer">
+          <div class="pageBg one" style="height: 710.4px;">
+          </div>
+          <div class="pageContent one" style="height: 725.4px;">
+            <div id="myCarousel" class="carousel slide one template4_v1" data-ride="carousel" data-interval="0" data-wrap="false" data-id="template4_v1">
+              <div class="carousel-inner">
+                <div class="item active" data-audiosrc="">
+                  <div class="itemContainer">
+                    <div class="questionContainer">
+                      <span class="question question_1" name="letter-a" id="q1" onclick="qwe()">a</span>
+                      <span class="question question_2" name="letter-b" id="q2" onclick="asd()">p</span>
+                    </div>
+                    <div class="optionContainer" style="flex-direction: column">
+                      <div class="one">
+                        <div class="three option option_1">
+                          <div class="optText">1&nbsp;&nbsp;t<span class="optClick" id="ten" onclick="lkj()" >&nbsp;</span>p</div><img src="Images/tap.png">
+                        </div>
+                        <div class="three option option_2">
+                          <div class="optText">2&nbsp;&nbsp;<span class="optClick"  id="pen" onclick="iop()" >&nbsp;</span>a t</div><img src="Images/pat.png">
+                        </div>
+                      </div>
+
+                      <div class="one">
+                        <div class="option option_3">
+                          <div class="optText">3&nbsp;&nbsp;m<span class="optClick" id="zen" onclick="mnb()" >&nbsp;</span>p</div>
+                          <img src="Images/map.png">
+
+                        </div>
+
+                      </div>
+                      <div class="correctAnsAudio" data-audiosrc="sounds/sound.wav"></div>
+                      <div class="incorrectAnsAudio" data-audiosrc="sounds/wrong.mp3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="row">
+          <div class="one footer" style="height: 124.8px;">
+            <div class="box">
+              <div class="reloadBtn" onclick="disaappearAns()">
+                <img src="Images/replay.png" class="img-responsive">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="ansBtn" onclick="showAns()">
+            <img src="Images/answers.png" class="img-responsive">
+          </div>
+        </div>
+
+        <div class="resoursePopup" style="display: none;" id="newpost">
+          <div class="resourseContainer" style="height: 725.4px;">
+            <img class="closeBtn" src="Images/close.png" onclick="lop()">
+            <div class="one noPadding" style="overflow: auto;width:100%;height:100%;padding:0;">
+              <img src="Images/dummy.jpg">
+            </div>
+          </div>
+        </div>
+
+        <div class="helpPopup" style="display: none;" id="oldpost">
+          <div class="helpContainer" style="height: 725.4px;">
+            <img class="closeBtn" src="Images/close.png" onclick="pol()">
+            <div class="one" style="overflow: auto;width:100%;height:100%;font-size:30px;">
+              <p>Help content goes here.</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
